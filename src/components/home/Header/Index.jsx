@@ -9,7 +9,7 @@ const Header = () => {
           <picture>
              <img src={imageProvider.logo} alt={imageProvider.logo}/>
            </picture>
-           <div>
+           <div className="flex items-center gap-x-4">
               <h3 className="label3 text-gray_00">Up to</h3>
               <span className="display4 text-warning_500">59%</span>
               <h3 className="body_xl_600 text-gray_00">OFF</h3>
