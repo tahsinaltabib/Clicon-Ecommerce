@@ -1,1 +1,141 @@
 @import "tailwindcss";
+/* common color */
+:root{
+  /* Gray color */
+   --gray_00: #FFFFFF;
+   --gray_50: #F2F4F5;
+   --gray_100: #E4E7E9;
+   --gray_200: #C9CFD2;
+   --gray_300: #ADB7BC;
+   --gray_400: #929FA5;
+   --gray_500: #77878F;
+   --gray_600: #5F6C72;
+   --gray_700: #475156;
+   --gray_800: #303639;
+   --gray_900: #191C1F;
+   /* Primary color */
+   --primary_50: #FFF3EB;
+   --primary_100: #FFE7D6;
+   --primary_200: #FFCEAD;
+   --primary_300: #FFB685;
+   --primary_400: #FF9D5C;
+   --primary_500: #FA8232;
+   --primary_600: #DE732D;
+   --primary_700: #99501F;
+   --primary_800: #663514;
+   --primary_900: #331B0A;
+   /* Secondary color */
+    --secondary_50: #EAF6FE;
+   --secondary_100: #D5EDFD;
+   --secondary_200: #ABDBFA;
+   --secondary_300: #81C9F8;
+   --secondary_400: #57B7F5;
+   --secondary_500: #2DA5F3;
+   --secondary_600: #2484C2;
+   --secondary_700: #1B6392;
+   --secondary_800: #124261;
+   --secondary_900: #092131;
+   /* Success color */
+    --success_50: #EAF7E9;
+   --success_100: #D5F0D3;
+   --success_200: #ABE0A7;
+   --success_300: #81D17C;
+   --success_400: #57C150;
+   --success_500: #2DB224;
+   --success_600: #248E1D;
+   --success_700: #1B6B16;
+   --success_800: #12470E;
+   --success_900: #092407;
+   /* Warning color */
+    --warning_50: #FDFAE7;
+   --warning_100: #FBF4CE;
+   --warning_200: #F7E99E;
+   --warning_300: #F3DE6D;
+   --warning_400: #EFD33D;
+   --warning_500: #EBC80C;
+   --warning_600: #BCA00A;
+   --warning_700: #8D7807;
+   --warning_800: #5E5005;
+   --warning_900: #2F2802;
+   /* Danger color */
+    --danger_50: #FDEEEE;
+   --danger_100: #FCDEDE;
+   --danger_200: #F8BCBC;
+   --danger_300: #F59B9B;
+   --danger_400: #F17979;
+   --danger_500: #EE5858;
+   --danger_600: #BE4646;
+   --danger_700: #8F3535;
+   --danger_800: #5F2323;
+   --danger_900: #301212;
+}
+
+@theme {
+  /* Gray color */
+  --color-gray_00: var(--gray_00);
+  --color-gray_50: var(--gray_50);
+  --color-gray_100: var(--gray_100);
+  --color-gray_200: var(--gray_200);
+  --color-gray_300: var(--gray_300);
+  --color-gray_400: var(--gray_400);
+  --color-gray_500: var(--gray_500);
+  --color-gray_600: var(--gray_600);
+  --color-gray_700: var(--gray_700);
+  --color-gray_800: var(--gray_800);
+  --color-gray_900: var(--gray_900);
+  /* Primary color */
+   --color-primary_50: var(--primary_50);
+  --color-primary_100: var(--primary_100);
+  --color-primary_200: var(--primary_200);
+  --color-primary_300: var(--primary_300);
+  --color-primary_400: var(--primary_400);
+  --color-primary_500: var(--primary_500);
+  --color-primary_600: var(--primary_600);
+  --color-primary_700: var(--primary_700);
+  --color-primary_800: var(--primary_800);
+  --color-primary_900: var(--primary_900);
+  /* Secondary color */
+  --color-secondary_50: var(--secondary_50);
+  --color-secondary_100: var(--secondary_100);
+  --color-secondary_200: var(--secondary_200);
+  --color-secondary_300: var(--secondary_300);
+  --color-secondary_400: var(--secondary_400);
+  --color-secondary_500: var(--secondary_500);
+  --color-secondary_600: var(--secondary_600);
+  --color-secondary_700: var(--secondary_700);
+  --color-secondary_800: var(--secondary_800);
+  --color-secondary_900: var(--secondary_900);
+  /* Success color */
+  --color-success_50: var(--success_50);
+  --color-success_100: var(--success_100);
+  --color-success_200: var(--success_200);
+  --color-success_300: var(--success_300);
+  --color-success_400: var(--success_400);
+  --color-success_500: var(--success_500);
+  --color-success_600: var(--success_600);
+  --color-success_700: var(--success_700);
+  --color-success_800: var(--success_800);
+  --color-success_900: var(--success_900);
+  /* Warning color */
+  --color-warning_50: var(--warning_50);
+  --color-warning_100: var(--warning_100);
+  --color-warning_200: var(--warning_200);
+  --color-warning_300: var(--warning_300);
+  --color-warning_400: var(--warning_400);
+  --color-warning_500: var(--warning_500);
+  --color-warning_600: var(--warning_600);
+  --color-warning_700: var(--warning_700);
+  --color-warning_800: var(--warning_800);
+  --color-warning_900: var(--warning_900);
+  /* Danger color */
+  --color-danger_50: var(--danger_50);
+  --color-danger_100: var(--danger_100);
+  --color-danger_200: var(--danger_200);
+  --color-danger_300: var(--danger_300);
+  --color-danger_400: var(--danger_400);
+  --color-danger_500: var(--danger_500);
+  --color-danger_600: var(--danger_600);
+  --color-danger_700: var(--danger_700);
+  --color-danger_800: var(--danger_800);
+  --color-danger_900: var(--danger_900);
+}
