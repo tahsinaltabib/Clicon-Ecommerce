@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 /* common color */
 :root{
@@ -68,6 +69,10 @@
    --danger_700: #8F3535;
    --danger_800: #5F2323;
    --danger_900: #301212;
+
+
+/* -----------------font family------------------- */
+   --public_sans: "Public Sans", sans-serif;
 }
 
 @theme {
@@ -138,4 +143,126 @@
   --color-danger_700: var(--danger_700);
   --color-danger_800: var(--danger_800);
   --color-danger_900: var(--danger_900);
+}
+
+/* ------------------font theme--------------------- */
+
+@theme {
+  --font-public_sans: var(--public_sans);
+}
+
+/* -----------------Common Class---------------------- */
+/* body xl */
+.body_xl_400 {
+  @apply font-normal text-xl font-public_sans leading-7;
+}
+.body_xl_500 {
+  @apply font-medium text-xl font-public_sans leading-7;
+}
+.body_xl_600 {
+  @apply font-semibold text-xl font-public_sans leading-7;
+}
+.body_xxl {
+  @apply font-normal text-2xl font-public_sans leading-8;
+}
+/* body large */
+.body_lg_600 {
+  @apply font-semibold text-lg font-public_sans leading-6;
+}
+.body_lg_500 {
+  @apply font-medium text-lg font-public_sans leading-[18px];
+}
+.body_lg_400 {
+  @apply font-normal text-lg font-public_sans leading-[18px];
+}
+/* body medium */
+.body_md_600 {
+  @apply font-semibold text-[16px] font-public_sans leading-6;
+}
+.body_md_500 {
+  @apply font-medium text-[16px] font-public_sans leading-6;
+}
+.body_md_400 {
+  @apply font-normal text-[16px] font-public_sans leading-6;
+}
+/* body small */
+.body_sm_400 {
+  @apply font-normal text-[14px] font-public_sans leading-5;
+}
+.body_sm_500 {
+  @apply font-medium text-[14px] font-public_sans leading-5;
+}
+.body_sm_600 {
+  @apply font-semibold text-[14px] font-public_sans leading-5;
+}
+/* body tiny */
+.body_tiny_400 {
+  @apply font-normal text-[12px] font-public_sans leading-4;
+}
+.body_tiny_500 {
+  @apply font-medium text-[12px] font-public_sans leading-4;
+}
+.body_tiny_600 {
+  @apply font-semibold text-[12px] font-public_sans leading-4;
+}
+/* body extra small */
+.body_extraxm_400 {
+  @apply font-normal text-[11px] font-public_sans leading-3;
+}
+.body_extraxm_500 {
+  @apply font-medium text-[11px] font-public_sans leading-3;
+}
+.body_extraxm_600 {
+  @apply font-semibold text-[11px] font-public_sans leading-3;
+}
+
+/* --------------------Label----------------------- */
+.label1{
+  @apply font-medium text-lg font-public_sans leading-7;
+}
+.label2{
+  @apply font-medium text-[16px] font-public_sans leading-6;
+}
+.label3{
+  @apply font-medium text-[14px] font-public_sans leading-5;
+}
+.label4{
+  @apply font-medium text-[12px] font-public_sans leading-4;
+}
+.label5{
+  @apply font-medium text-[11px] font-public_sans leading-4;
+}
+
+/* --------------------heading----------------------- */
+.heading1{
+  @apply font-semibold text-[32px] font-public_sans leading-[40px];
+}
+.heading2{
+  @apply font-semibold text-[28px] font-public_sans leading-[32px];
+}
+.heading3{
+  @apply font-semibold text-[24px] font-public_sans leading-[34px];
+}
+.heading6{
+  @apply font-bold text-[16px] font-public_sans leading-[56px];
+}
+.heading7{
+  @apply font-semibold text-[14px] font-public_sans leading-[48px];
+}
+
+/* --------------------heading----------------------- */
+.display1{
+  @apply font-semibold text-[64px] font-public_sans leading-[72px];
+}
+.display2{
+  @apply font-semibold text-[56px] font-public_sans leading-[64px];
+}
+.display3{
+  @apply font-semibold text-[48px] font-public_sans leading-[56px];
+}
+.display4{
+  @apply font-semibold text-[40px] font-public_sans leading-[48px];
+}
+.display5{
+  @apply font-semibold text-[36px] font-public_sans leading-[44px];
 }
